@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav ul {
+    background-color: white;
+    width: 100%;
+    list-style-type: none;
+    text-align: right;
+}
+
+nav li{
+    display: inline-flex;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px ;
+    width: 150px;
+}
+
+.header {
+    background: linear-gradient(to bottom, #007bff, #000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: left;
+    font-family: Blinker, sans-serif;
+    font-size: 1em;
+    padding: 12px;
+    text-transform: uppercase;
+}
+
+.degradado { 
+    background: linear-gradient(to bottom, #52cfdf, #2b9fe9);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.2em;
+}
