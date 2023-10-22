@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+body {
+    font-family: 'Lato', Arial, sans-serif;
+    align-items: center;
+}
+
+body.modo-claro {
+    background-color: #fff;
+    color: #333;
+}
+
+body.modo-oscuro {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos generales para el botón */
+.custom-button {
+    background-color: #1b81ed00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Estilos para el botón con icono */
+.with-icon {
+    background-image: url('images/modo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40px 40px;
+    padding-left: 50px;
+}
+
+.modo-claro .custom-button {
+    background-color: #007bff00;
+}
+
+.modo-oscuro .custom-button {
+    background-color: #33333300;
+    color: #fff;
+}
+
+.custom-button:hover {
+    background-color: #0057b300;
+}
+
+.custom-button:active {
+    transform: scale(0.95);
+}
+
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.user-icon img {
+    padding: 15%;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.title h1 {
+    text-align: center;
+}
+
+.card {
+    font-family: 'Lato', Arial, sans-serif;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    margin-left: 17%;
+    width: 70%;
+    height: 300px;
+    background-color: #ffffff;
+    color: #2b2b2b;
+    font-size: 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.card * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card .debian {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 0% 8% 0;
+}
+
+.card .debian img {
+    width: 300px;
+    vertical-align: top;
+    position: relative;
+    border-radius: 40%;
+}
+
+.card figcaption {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .content {
+    text-align: center;
+    align-items: center;
+    padding: 0 30%;
+}
+
+.card h3 {
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 3px 0;
+}
+
+.card h5 {
+    font-weight: 400;
+    font-size: 22px;
+    margin: 0;
+    text-transform: uppercase;
+    color: #888;
+    letter-spacing: 1px;
+}
+
+.card button {
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    background-color: #0313faed;
+    width: 130px;
+    height: 35px;
+    font-weight: 700;
+    line-height: 1;
+    font-size: 16px;
+}
