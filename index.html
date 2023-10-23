@@ -4,41 +4,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/jpg" href="logos/7.jpg">
-    <title>Especialízate en Debian</title>
+    <title>Capacitación SecureShop</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="script.js"></script>
 </head>
 
 <body>
     <header>
-        <div class="logo">
-            <img src="images/7.jpg" alt="Logo de tu sitio">
-        </div>
-        <button id="modoBoton" class="custom-button with-icon"></button>
-        <div class="user-icon">
-            <img src="images/user_icon.png" alt="Icono de usuario">
-        </div>
+        <a href="#" class="logo">
+            <img src="images/12.png" alt="logo-secure-shop">
+        </a>
+        <nav class="nav-bar">
+            <a href="#" class="nav-link"><span class="material-symbols-outlined">
+                    home
+                </span></a>
+            <a href="#" class="nav-link"><span class="material-symbols-outlined">
+                    help
+                </span></a>
+            <a href="#" class="nav-link"><span class="material-symbols-outlined">
+                    account_circle
+                </span></a>
+        </nav>
     </header>
-    <div class="title">
-        <h1>
-            Especialízate en el uso de Debian
-        </h1>
-    </div>
-    <figure class="card">
-        <div class="debian">
-            <img src="images/debian.jpg" alt="debian" />
+    <main>
+        <div class="welcome">
+            <img src="images/debian.png" alt="">
+            <p>Bienvenido a la capacitación de Debian</p>
         </div>
-        <figcaption>
-            <div class="content">
-                <h5>Bienvenida</h5>
-                <br>
-                <h3>Recursos</h3>
-                <br>
-                <button type="button" class="iniciar">Iniciar Lección</button>
+
+        <div class="family">
+            <div class="section">
+                <div class="section-title">
+                    <h3>Bienvenida</h3>
+                    <h5>0/2 completado</h5>
+                </div>
+                <div class="desplegable" onclick="toggleContenidos('contenido-oculto-1')">
+                    <span class="material-symbols-outlined">
+                        expand_more
+                    </span>
+                </div>
             </div>
-        </figcaption>
-    </figure>
+
+            <div class="contenedor" id="contenido-oculto-1">
+                <div class="section-recurso">
+                    <div class="section-title">
+                        <h4>Recursos</h4>
+                    </div>
+                    <div class="simbol">
+                        <span class="material-symbols-outlined">
+                            assignment
+                        </span>
+                    </div>
+                </div>
+
+                <div class="section-recurso">
+                    <div class="section-title">
+                        <h4>Video</h4>
+                    </div>
+                    <div class="simbol">
+                        <span class="material-symbols-outlined">
+                            play_circle
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
 </body>
 
 </html>

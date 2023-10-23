@@ -1,2 +1,2 @@
-# page_SSOO
-Proyecto SSOO - Capacitación
+#SOPORTE TECNICO SO 
+-- EN PROGRESO --

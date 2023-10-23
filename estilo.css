@@ -36,9 +36,9 @@ nav a{
 
 .degradado { 
     background: linear-gradient(to bottom, #52cfdf, #2b9fe9);
-    border-radius: 10px;
+    border-radius: 11px;
     text-align: center;
-    padding: 20px;
+    padding: 100px;
     margin-top: 20px;
 }
 
